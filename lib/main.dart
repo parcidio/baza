@@ -24,8 +24,8 @@ class MainApp extends StatelessWidget {
   
   content() {
     return FlutterMap(options:    MapOptions(
-      initialCenter: LatLng(-8.8, 13.2),
-      initialZoom: 2.5,
+      initialCenter: LatLng( -8.838333, 13.234444),
+      initialZoom: 13,
     ), children: [openStreetMap]);
   }
 }
