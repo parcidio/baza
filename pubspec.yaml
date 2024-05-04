@@ -10,11 +10,18 @@ dependencies:
   flutter:
     sdk: flutter
 
+
   # Geolocation packages
   flutter_map: ^6.1.0
   flutter_map_cancellable_tile_provider: ^2.0.0
   geolocator: ^11.0.0
   latlong2: ^0.9.1
+
+  location: ^5.0.0
+  maplibre_gl:
+    git:
+      url: https://github.com/maplibre/flutter-maplibre-gl.git
+      ref: main
 
   # Utility packages
   http: ^1.1.0
@@ -38,6 +45,8 @@ dependencies:
   flutter_svg: ^2.0.9
   readmore: ^3.0.0
   flutter_rating_bar: ^4.0.1
+  vector_map_tiles: ^7.3.1
+  sliding_up_panel: ^2.0.0+1
 
 dev_dependencies:
   flutter_test:

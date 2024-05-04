@@ -105,6 +105,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "5.4.3+1"
+  executor_lib:
+    dependency: transitive
+    description:
+      name: executor_lib
+      sha256: "544889daa5726462657dab6410b75f2f8e3a77479d85b307a25c346e243bc38e"
+      url: "https://pub.dev"
+    source: hosted
+    version: "1.1.1"
   fake_async:
     dependency: transitive
     description:
@@ -138,10 +146,10 @@ packages:
     dependency: "direct main"
     description:
       name: flutter_libphonenumber
-      sha256: c59161643c4c8c3729e1481f31f9d305f3f5cc12db4b36054ec65ba9c5ca95ec
+      sha256: "72d73e4d7beae20454ff2fa5d146d38ebfeec363bd98907263379984a723df4a"
       url: "https://pub.dev"
     source: hosted
-    version: "2.2.3"
+    version: "2.2.2"
   flutter_libphonenumber_android:
     dependency: transitive
     description:
@@ -170,10 +178,10 @@ packages:
     dependency: transitive
     description:
       name: flutter_libphonenumber_web
-      sha256: "0d34cd04cbed7d0454113f016498c07d2df10f5d89b6ea384daddf2ea0d0f1a8"
+      sha256: "271159e874f7a3b3b7a5090ff4323e6f4b0dc7552b54805e145f5e07ef01e930"
       url: "https://pub.dev"
     source: hosted
-    version: "1.0.1"
+    version: "1.0.0"
   flutter_lints:
     dependency: "direct dev"
     description:
@@ -348,10 +356,10 @@ packages:
     dependency: transitive
     description:
       name: js
-      sha256: c1b2e9b5ea78c45e1a0788d29606ba27dc5f71f019f32ca5140f61ef071838cf
+      sha256: f2c445dce49627136094980615a031419f7f3eb393237e4ecd97ac15dea343f3
       url: "https://pub.dev"
     source: hosted
-    version: "0.7.1"
+    version: "0.6.7"
   latlong2:
     dependency: "direct main"
     description:
@@ -400,6 +408,30 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.0.1"
+  location:
+    dependency: "direct main"
+    description:
+      name: location
+      sha256: "06be54f682c9073cbfec3899eb9bc8ed90faa0e17735c9d9fa7fe426f5be1dd1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.0.3"
+  location_platform_interface:
+    dependency: transitive
+    description:
+      name: location_platform_interface
+      sha256: "8aa1d34eeecc979d7c9fe372931d84f6d2ebbd52226a54fe1620de6fdc0753b1"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.2"
+  location_web:
+    dependency: transitive
+    description:
+      name: location_web
+      sha256: ec484c66e8a4ff1ee5d044c203f4b6b71e3a0556a97b739a5bc9616de672412b
+      url: "https://pub.dev"
+    source: hosted
+    version: "4.2.0"
   logger:
     dependency: "direct main"
     description:
@@ -408,6 +440,33 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.2.0"
+  maplibre_gl:
+    dependency: "direct main"
+    description:
+      path: "."
+      ref: main
+      resolved-ref: ec5a29dea08e8c2fadf9c55bd5bc500ef5b2a685
+      url: "https://github.com/maplibre/flutter-maplibre-gl.git"
+    source: git
+    version: "0.18.0"
+  maplibre_gl_platform_interface:
+    dependency: transitive
+    description:
+      path: maplibre_gl_platform_interface
+      ref: main
+      resolved-ref: ec5a29dea08e8c2fadf9c55bd5bc500ef5b2a685
+      url: "https://github.com/maplibre/flutter-maplibre-gl.git"
+    source: git
+    version: "0.18.0"
+  maplibre_gl_web:
+    dependency: transitive
+    description:
+      path: maplibre_gl_web
+      ref: main
+      resolved-ref: ec5a29dea08e8c2fadf9c55bd5bc500ef5b2a685
+      url: "https://github.com/maplibre/flutter-maplibre-gl.git"
+    source: git
+    version: "0.18.0"
   matcher:
     dependency: transitive
     description:
@@ -544,6 +603,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.0"
+  protobuf:
+    dependency: transitive
+    description:
+      name: protobuf
+      sha256: "68645b24e0716782e58948f8467fd42a880f255096a821f9e7d0ec625b00c84d"
+      url: "https://pub.dev"
+    source: hosted
+    version: "3.1.0"
   readmore:
     dependency: "direct main"
     description:
@@ -557,6 +624,14 @@ packages:
     description: flutter
     source: sdk
     version: "0.0.99"
+  sliding_up_panel:
+    dependency: "direct main"
+    description:
+      name: sliding_up_panel
+      sha256: "578e90956a6212d1e406373250b2436a0f3afece29aee3c24c8360094d6cf968"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0+1"
   smooth_page_indicator:
     dependency: "direct main"
     description:
@@ -741,6 +816,14 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "1.1.11+1"
+  vector_map_tiles:
+    dependency: "direct main"
+    description:
+      name: vector_map_tiles
+      sha256: "79394902d04cefe6f93eb0a80afe48d8b76fec8d90cf6d6bd5a7e34abe577d1c"
+      url: "https://pub.dev"
+    source: hosted
+    version: "7.3.1"
   vector_math:
     dependency: transitive
     description:
@@ -749,6 +832,22 @@ packages:
       url: "https://pub.dev"
     source: hosted
     version: "2.1.4"
+  vector_tile:
+    dependency: transitive
+    description:
+      name: vector_tile
+      sha256: "3adb04426f3aebefce56f3fdf8ab2e23cc9f7d5b06ff8ca33ae87e3a1e441874"
+      url: "https://pub.dev"
+    source: hosted
+    version: "2.0.0"
+  vector_tile_renderer:
+    dependency: transitive
+    description:
+      name: vector_tile_renderer
+      sha256: b58fa02b472ced87de00de2b4d5837576239bddb21b562481f25bde39bd117ae
+      url: "https://pub.dev"
+    source: hosted
+    version: "5.2.0"
   vm_service:
     dependency: transitive
     description:
